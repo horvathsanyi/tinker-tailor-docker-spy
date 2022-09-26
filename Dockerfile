@@ -7,8 +7,6 @@ RUN mkdir -p /home/app
 
 COPY ./app /home/app
 
-EXPOSE 3000
-
 WORKDIR /home/app
 
 CMD node server.js
